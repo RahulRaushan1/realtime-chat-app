@@ -49,6 +49,7 @@ A real-time chat application built using **Spring Boot** on the backend and **We
    http://localhost:8080/chat
 
 ## 📁 Project Structure
+```
 src/
 ├── main/
 │   ├── java/com/chat/app/
@@ -61,6 +62,7 @@ src/
 │   └── resources/
 │       └── templates/
 │           └── chat.html
+```          └── chat.html
 
 ## 👨‍💻 Author
 Rahul Raushan
