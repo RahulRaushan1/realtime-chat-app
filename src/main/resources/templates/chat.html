@@ -35,7 +35,7 @@
         document.getElementById('sendMessage').disabled = !connected;
         }
     function connect (){
-     var socket = new SockJS('/chat');
+     var socket = new SockJS('https://realtime-chat-app-quhz.onrender.com/chat');
      stompClient = Stomp.over(socket);
      stompClient.connect({},function(frame){
       setConnected(true);
